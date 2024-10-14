@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"learning_go/statistics"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
+  statistics.Statistic_Program()
 }
